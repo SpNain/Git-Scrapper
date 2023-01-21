@@ -1,12 +1,15 @@
 # Git Scrapper 
 
-In this project we scrape git website.
+In this project I scrapes data from the Git website by selecting three different topics.
+And retrieves top 10 projects of each topic and saves them in a object file.
 
 ## Working 📝
 
-- When site loads we choose three diffrent topics.
-- We scrape top 10 projects of each topic and save them in a object file.
+- We provide link of Git topics website.
+- This project scrapeds data from the Git website by selecting three different topics when site loads.
+- And retrieves top 10 projects of each topic by using scraping techniques.
+- The collected data was saved in an object file, which can be easily read and accessed later.
 
 ## Tech Stack ⚒
 
-**Nodejs, Request & Cheerio**
+**Javascript, Nodejs, FS Module, Request & Cheerio.**
